@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/*Config. Geral*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,13 +9,18 @@
     font-family: 'Inter', sans-serif;
 }
 
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     height: 100vh;
 }
 
-a {
-    text-decoration: none;
-}
+
+/*Header,Nav*/
 
 header {
     display: flex;
@@ -36,13 +44,21 @@ header {
     font-size: 18px;
 }
 
-nav a {
-    margin-right: 32px;
-    color: #667085;
+nav ul {
+    display: flex;
 }
 
-nav a:nth-child(4) {
+nav li {
+    color: #667085;
+    margin-right: 32px;
+}
+
+nav li:nth-child(4) {
     margin-right: 0px;
+}
+
+nav a {
+    color: #667085;
 }
 
 .button-nav .button-get-in {
@@ -67,4 +83,39 @@ nav a:nth-child(4) {
     line-height: 24px;
     border: none;
     cursor: pointer;
+}
+
+
+/*Header Info*/
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 407px;
+}
+
+.header-box h1 {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #8E2424;
+    font-weight: 600;
+}
+
+.header-box .title-header-box {
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #101828;
+    text-align: center;
+}
+
+.header-box h2 {
+    max-width: 791px;
+    font-size: 20px;
+    color: #667085;
+    font-weight: 400;
+    text-align: center;
 }
