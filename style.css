@@ -153,3 +153,85 @@ nav a {
 .data-box:nth-child(4) {
     margin-right: 0px;
 }
+
+
+/*Vacancies*/
+
+.information-vacancies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-vacancies {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #8E24240D;
+    color: #8E2424;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 4px 12px;
+    margin-top: 96px;
+}
+
+.title-vacancies {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 16px 0 20px 0;
+}
+
+.subtitle-vacancies {
+    color: #667085;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.vacancies img {
+    max-width: 1216px;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.open-vacancies {
+    margin: 64px 336px 0px;
+}
+
+.title-vacancies-area {
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.open-vacancies-box {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.open-vacancies-box:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.title-area {
+    font-size: 18px;
+    color: #101828;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+.job-information {
+    display: flex;
+    color: #667085;
+    font-weight: 500;
+}
+
+.work-shift {
+    margin-right: 24px;
+}
