@@ -119,3 +119,37 @@ nav a {
     font-weight: 400;
     text-align: center;
 }
+
+
+/*Data*/
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.data-box {
+    margin-right: 32px;
+    color: #101828;
+}
+
+.data-box span {
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.data-information {
+    color: #667085;
+    max-width: 280px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.data-box:nth-child(4) {
+    margin-right: 0px;
+}
