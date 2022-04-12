@@ -235,3 +235,42 @@ nav a {
 .work-shift {
     margin-right: 24px;
 }
+
+
+/*Testimonial*/
+
+.testimonial {
+    padding: 64px;
+    background-color: #C3191908;
+    margin: 0px 112px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial-title {
+    font-size: 14px;
+    color: #8E2424;
+    font-weight: 600;
+}
+
+.testimonial-usualy {
+    font-size: 36px;
+    color: #101828;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 16px 0 32px;
+}
+
+.name-usualy {
+    color: #101828;
+    font-weight: 500;
+    margin: 16px 0 4px;
+}
+
+.shift-usualy {
+    font-size: 14px;
+    color: #667085;
+}
