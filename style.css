@@ -32,15 +32,11 @@ header {
 
 .logo-box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     gap: 8px;
 }
 
-.logo-img {
-    width: 27px;
-    height: auto;
+.fa-solid {
+    color: #8E2424;
 }
 
 .text-logo {
@@ -144,20 +140,14 @@ nav a {
     color: #8E2424;
     font-size: 60px;
     font-weight: 600;
-}
-
-.data-box .title-data {
-    margin: 12px 0 8px 0px;
+    margin-bottom: 12px;
 }
 
 .data-information {
     color: #667085;
     max-width: 280px;
+    margin-top: 8px;
     font-size: 16px;
-}
-
-.data-box .ajuste-text {
-    margin-bottom: 16px;
 }
 
 .data-box:nth-child(4) {
